@@ -1,0 +1,57 @@
+Kubernetes Training Notes
+
+Reference:  Installing kubectl   - https://kubernetes.io/docs/tasks/tools/ 
+Rancher Desktop
+- https://rancherdesktop.io/
+AWS SSO
+  - https://drivevariant.atlassian.net/wiki/spaces/CLOUD/pages/1384513619/Getting+Credentials+using+AWS+Single+Sign-On+SSO
+Kubernetes Docs
+  - https://kubernetes.io/docs/home/
+
+
+
+Outline: 
+Kubernetes
+1. Kubectl
+    1. Install
+    2. Basic commands
+        - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+        - Imperative vs Declarative
+            - https://kubernetes.io/docs/concepts/overview/working-with-objects/object-management/
+2. Kube Config
+    1. Add eks context
+    2. Add rancher desktop context
+    3. Switch between contexts
+3. Namespaces
+4. Pods, Containers
+5. Deployments, Cron Jobs
+6. Config Maps, Secrets
+7. ServiceAccount
+8. EKS OpenID IAM Role
+9. Istio
+
+My Outline: 
+1. Kubernetes Case Study / Problem Statement
+    1. Easier management
+    2. High Availability
+    3. Scalability
+2. Kubernetes Architecture
+    1. Master Node / Control Plane
+        1. Kubelet
+        2. Etc
+        3. Scheduler
+        4. Controller
+        5. API Server
+    2. Worker Nodes / Node Groups
+3. Kubernetes Objects
+    1. Pods
+    2. Namespace
+    3. Replica Sets
+    4. Deployments
+    5. CronJobs
+    6. Config Maps
+    7. Secrets
+    8. Service Account
+    9. EKS OpenID IAM Role
+    10. Service
+    11. Virtual Service / Istio
